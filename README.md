@@ -22,7 +22,7 @@ $ dd if=kali-linux.iso of=/dev/disk2 bs=512k
 
 ## Fix EFI ##
 
-Mount the USB device and replace the EFI/BOOT/ folder with the one in this repository.
+After the installation is completed mount the USB device and replace the EFI/BOOT/ folder with the one in this repository.
 Reboot and Enjoy!
 
 #### References
