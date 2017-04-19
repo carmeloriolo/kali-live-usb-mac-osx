@@ -5,7 +5,7 @@
 $ diskutil list
 ```
  
-**ATTENTION!! **Check the correctness of the drive before launching the next command. If you specify an incorrect output you could overwrite another disk drive. 
+**ATTENTION!!** Check the correctness of the drive before launching the next command. If you specify an incorrect output you could overwrite another disk drive. 
 Suppose the USB drive is /dev/disk2. Then proceed to copy the image on the USB device.
  ```sh
 $ dd if=kali-linux.iso of=/dev/disk2 bs=512k
