@@ -1,16 +1,14 @@
 ## Install Live USB from Mac ##
 
- Launch the following command in order to identify the usb drive:
+ Launch the following command in order to identify the USB drive:
  ```sh
 $ diskutil list
 ```
  
- 
- Suppose it is /dev/disk2.
- 
- Then proceed to copy the image on the USB device.
+ATTENTION!! Check the correctness of the drive before launching the next command. If you specify an incorrect output you could overwrite another disk drive. 
+Suppose the USB drive is /dev/disk2. Then proceed to copy the image on the USB device.
  ```sh
-$ dd if=kali-linux-2016.2-amd64.iso of=/dev/disk2 bs=512k
+$ dd if=kali-linux.iso of=/dev/disk2 bs=512k
 ```
  Once dd has finished imaging the drive, it will output something that looks like this:
  ```sh
@@ -24,10 +22,10 @@ $ dd if=kali-linux-2016.2-amd64.iso of=/dev/disk2 bs=512k
 
 ## Fix EFI ##
 
-Mount the USB device and replace the EFI/BOOT/ folder with the one in this repository. 
+Mount the USB device and replace the EFI/BOOT/ folder with the one in this repository.
 Reboot and Enjoy!
 
-## References ## 
+#### References
 - [http://docs.kali.org/downloading/kali-linux-live-usb-install](http://docs.kali.org/downloading/kali-linux-live-usb-install)
 
  
