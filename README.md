@@ -14,9 +14,9 @@ $ dd if=kali-linux-2016.2-amd64.iso of=/dev/disk2 bs=512k
 ```
  Once dd has finished imaging the drive, it will output something that looks like this:
  ```sh
- 	5823+1 records in
-	5823+1 records out
-	3053371392 bytes (3.1 GB) copied, 746.211 s, 4.1 MB/s
+ 5823+1 records in
+5823+1 records out
+3053371392 bytes (3.1 GB) copied, 746.211 s, 4.1 MB/s
 ```
 
 
