@@ -22,8 +22,12 @@ $ dd if=kali-linux-2016.2-amd64.iso of=/dev/disk2 bs=512k
 
 
 
-## FIx EFI ##
+## Fix EFI ##
 
-Mount the USB device and replace the EFI/BOOT/ folder with the one in this repository.
+Mount the USB device and replace the EFI/BOOT/ folder with the one in this repository. 
+Reboot and Enjoy!
+
+## References ## 
+- [http://docs.kali.org/downloading/kali-linux-live-usb-install](http://docs.kali.org/downloading/kali-linux-live-usb-install)
 
  
